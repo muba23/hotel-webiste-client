@@ -1,0 +1,13 @@
+.about hr{
+    width: 10%;
+    height: 4px;
+    color: rgb(187, 147, 116);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content:space-between;
+}
+

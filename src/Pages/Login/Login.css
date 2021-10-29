@@ -1,0 +1,37 @@
+.form{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(244, 253, 244);
+    padding: 20px;
+}
+.form-button{
+    background-color: grey;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.form-button:hover{
+    background-color: rgb(146, 143, 143);
+    border: 1px solid rgb(146, 143, 143);
+}
+
+.register-btn{
+    background-color: rgb(247, 186, 55);
+    border: 1px solid rgb(247, 186, 55);
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.register-btn:hover{
+    background-color: rgb(185, 181, 181);
+    border: 1px solid rgb(185, 181, 181) ;
+}
+
+.register-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.register p{
+    color: grey;
+}
