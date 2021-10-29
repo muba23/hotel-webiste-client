@@ -1,0 +1,15 @@
+.navlink{
+    background-color: rgb(241, 232, 232);
+}
+.navlink a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.navlink a:hover{
+    color: rgb(129, 128, 128);
+}
+
+.hotel-name h2{
+    margin-right: 20px;
+}
