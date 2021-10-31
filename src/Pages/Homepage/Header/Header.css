@@ -13,3 +13,8 @@
 .hotel-name h2{
     margin-right: 20px;
 }
+
+.navlink .logout-btn{
+   width: 20%;
+   margin: auto;
+}

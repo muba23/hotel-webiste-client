@@ -1,12 +1,14 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import Contact from '../../Contact/Contact';
 import Banner from '../Banner/Banner';
-import Header from '../Header/Header';
+import SpecialOffers from '../../SpecialOffers/SpecialOffers';
 import './Home.css'
+import Services from '../../Services/Services';
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Banner></Banner>
             <div className="mb-3 newsletter">
                 <h2>Newsletter</h2>
@@ -17,6 +19,11 @@ const Home = () => {
                     Subscribe
                 </Button>
             </div>
+            {/* <Services></Services> */}
+            <SpecialOffers></SpecialOffers>
+            <Contact></Contact>
+            
+            
         </div>
     );
 };

@@ -5,11 +5,16 @@
     padding: 20px;
 }
 .form-button{
+    background-color: rgb(52, 87, 245);
+    border: 1px solid rgb(52, 87, 245);
+    width: 100%;
+}
+
+.login-button{
     background-color: grey;
     border: 1px solid grey;
     width: 100%;
 }
-
 .form-button:hover{
     background-color: rgb(146, 143, 143);
     border: 1px solid rgb(146, 143, 143);
@@ -35,3 +40,4 @@
 .register p{
     color: grey;
 }
+
