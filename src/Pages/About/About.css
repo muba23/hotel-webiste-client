@@ -1,4 +1,7 @@
-.about hr{
+.aboutUs{
+    width: 100%;
+}
+.aboutUs hr{
     width: 10%;
     height: 4px;
     color: rgb(187, 147, 116);
@@ -6,13 +9,13 @@
     margin-bottom: 20px;
 }
 
-.about{
-    display: flex;
-    justify-content:space-between;
+.aboutUs .about img{
+    width: 75%;
+    margin: auto;
 }
 
-.about .about-para{
-    margin-left: 5px;
+.about{
+    display: block;
 }
 
 @media only screen and (max-width: 688px) {

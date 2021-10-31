@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 
-const ManageServices = () => {
+const ManageBookings = () => {
     const [services, setServices] = useState([]);
     useEffect(()=>{
         fetch('http://localhost:5000/services')
@@ -26,11 +26,11 @@ const ManageServices = () => {
     }
     return (
         <div>
-            <h2>Manage Services</h2>
+            <h2>Manage Your Bookings</h2>
             {
                 services.map(service => <div
                 key={service._id}>
-                    <h3>{service.name}</h3>
+                    <h4 style={{color: 'red'}}>{service.name}</h4>
                     <Button onClick={()=> handleDelete(service._id)}>Delete</Button>
                 </div>)
             }
@@ -38,4 +38,4 @@ const ManageServices = () => {
     );
 };
 
-export default ManageServices;
+export default ManageBookings;

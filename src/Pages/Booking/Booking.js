@@ -12,9 +12,14 @@ const Booking = () => {
             .then(data=> setService(data));
     },[])
     return (
-        <div>
-            <h3>Details of {service.name}</h3>
-            <p>This is booking: {serviceId}</p>
+        <div className="details my-4">
+            <h3 style={{color: 'blue'}}>Details of your Bookings </h3>
+            <hr />
+            <p>Booking for: {serviceId}</p>
+            <h5>You have choosed <b>{service.name}</b></h5>
+            <p>It is about {service.size} sized room and {service.capacity} can be occupied in this room easily. The whole Dhaka city can be viewed from this room. </p>
+            <img src={service.img} alt="" />
+            
         </div>
     );
 };

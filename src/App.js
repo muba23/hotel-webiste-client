@@ -15,7 +15,8 @@ import SpecialOffers from './Pages/SpecialOffers/SpecialOffers';
 import AddService from './Pages/AddService/AddService';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
-import ManageServices from './Pages/ManageServices/ManageServices';
+import ManageBookings from './Pages/ManageBookings/ManageBookings';
+import BookOrder from './Pages/BookOrder/BookOrder';
 
 
 function App() {
@@ -52,9 +53,12 @@ function App() {
             <Route path="/addService">
                 <AddService></AddService>
             </Route>
-            <Route path="/manageServices">
-                <ManageServices></ManageServices>
-            </Route>
+            <PrivateRoute path="/manageBookings">
+                <ManageBookings></ManageBookings>
+            </PrivateRoute>
+            <PrivateRoute path="/bookOrder">
+                <BookOrder></BookOrder>
+            </PrivateRoute>
             
             <Route path="*">
                 <NotFound></NotFound>

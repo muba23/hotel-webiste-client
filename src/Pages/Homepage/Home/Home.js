@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <div id="home">
             <Banner></Banner>
+            <Services></Services>
             <div className="mb-3 newsletter">
                 <h2>Newsletter</h2>
                 <Form.Group className="mb-2" controlId="formBasicPassword">
@@ -19,7 +20,6 @@ const Home = () => {
                     Subscribe
                 </Button>
             </div>
-            {/* <Services></Services> */}
             <SpecialOffers></SpecialOffers>
             <Contact></Contact>
             
