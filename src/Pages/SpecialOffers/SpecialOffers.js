@@ -15,6 +15,7 @@ const SpecialOffers = () => {
     return (
         <div id="offers" className="offers-container">
             <h2 className="mb-5">Special Offers</h2>
+            <p>Special Offers are coming soon</p>
             <div>
                 {
                     offers.map(offer=> <SpecialOffer

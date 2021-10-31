@@ -17,6 +17,7 @@ import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import ManageBookings from './Pages/ManageBookings/ManageBookings';
 import BookOrder from './Pages/BookOrder/BookOrder';
+import MyOrders from './Pages/MyOrders/MyOrders';
 
 
 function App() {
@@ -58,6 +59,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/bookOrder">
                 <BookOrder></BookOrder>
+            </PrivateRoute>
+            <PrivateRoute path="/myOrders">
+                <MyOrders></MyOrders>
             </PrivateRoute>
             
             <Route path="*">
